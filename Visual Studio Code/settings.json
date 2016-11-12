@@ -1,13 +1,15 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontSize": 14,
-    "editor.tabSize": 2,
-    "editor.formatOnType": true,
-    "editor.tabCompletion": true,
-    "editor.renderIndentGuides": true,
-    "files.autoSave": "afterDelay",
-    "editor.formatOnSave": true,
-    "markdown.styles": [
-        "https://raw.githubusercontent.com/sindresorhus/github-markdown-css/gh-pages/github-markdown.css"
-    ]
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.wrappingColumn": -1,
+  "editor.formatOnType": true,
+  "editor.tabCompletion": true,
+  "editor.renderIndentGuides": true,
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "markdown.styles": [
+    "https://raw.githubusercontent.com/sindresorhus/github-markdown-css/gh-pages/github-markdown.css"
+  ],
+  "git.confirmSync": false
 }
