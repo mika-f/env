@@ -3,10 +3,10 @@
     // Editor
     "editor.fontSize": 14,
     "editor.tabSize": 2,
-    "editor.wrappingColumn": -1,
     "editor.formatOnType": true,
     "editor.tabCompletion": true,
     "editor.renderIndentGuides": true,
+    "workbench.iconTheme": "vscode-icons",
     // Files
     "files.autoSave": "afterDelay",
     "editor.formatOnSave": true,
@@ -14,9 +14,5 @@
     "git.confirmSync": false,
     // HTML
     "html.format.extraLiners": "",
-    "html.suggest.angular1": false,
-    // Markdown
-    "markdown.styles": [
-        "https://raw.githubusercontent.com/sindresorhus/github-markdown-css/gh-pages/github-markdown.css"
-    ]
+    "html.suggest.angular1": false
 }
