@@ -8,11 +8,16 @@
     "editor.renderIndentGuides": true,
     "workbench.iconTheme": "vscode-icons",
     // Files
-    "files.autoSave": "afterDelay",
+    "files.autoSave": "off",
     "editor.formatOnSave": true,
     // Git
     "git.confirmSync": false,
     // HTML
     "html.format.extraLiners": "",
-    "html.suggest.angular1": false
+    "html.suggest.angular1": false,
+    "git.enableSmartCommit": true,
+    // Python
+    "python.formatting.autopep8Args": [
+        "--max-line-length=120"
+    ]
 }
