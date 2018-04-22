@@ -12,10 +12,10 @@
     "editor.formatOnSave": true,
     // Git
     "git.confirmSync": false,
+    "git.enableSmartCommit": true,
     // HTML
     "html.format.extraLiners": "",
     "html.suggest.angular1": false,
-    "git.enableSmartCommit": true,
     // Python
     "python.formatting.autopep8Args": [
         "--max-line-length=120"
