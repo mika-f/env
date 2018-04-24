@@ -10,6 +10,7 @@
     "editor.formatOnSave": true,
     // Git
     "git.confirmSync": false,
+    "git.enableSmartCommit": true,
     // HTML
     "html.format.extraLiners": "",
     "html.suggest.angular1": false,
@@ -21,5 +22,6 @@
     "terminal.integrated.cursorStyle": "line",
     // Icon
     "workbench.iconTheme": "vscode-icons",
-    "git.enableSmartCommit": true
+    // Markdown All In One
+    "markdown.extension.toc.githubCompatibility": true
 }
