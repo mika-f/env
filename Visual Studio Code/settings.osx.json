@@ -6,8 +6,12 @@
     "editor.formatOnType": true,
     "editor.tabCompletion": true,
     "editor.renderIndentGuides": true,
-    // Files
+    "editor.wordWrap": "off",
     "editor.formatOnSave": true,
+    // File
+    "files.associations": {
+        "cpanfile": "perl"
+    },
     // Git
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
@@ -25,3 +29,4 @@
     // Markdown All In One
     "markdown.extension.toc.githubCompatibility": true
 }
+
