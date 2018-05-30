@@ -10,7 +10,8 @@
     "editor.formatOnSave": true,
     // File
     "files.associations": {
-        "cpanfile": "perl"
+        "cpanfile": "perl",
+        "*.css": "postcss" // *.css files recognized as PostCSS.
     },
     // Git
     "git.confirmSync": false,
@@ -27,6 +28,10 @@
     // Icon
     "workbench.iconTheme": "vscode-icons",
     // Markdown All In One
-    "markdown.extension.toc.githubCompatibility": true
+    "markdown.extension.toc.githubCompatibility": true,
+    // C#
+    "csharp.suppressDotnetInstallWarning": true,
+    "extensions.ignoreRecommendations": false,
+    "explorer.confirmDragAndDrop": false
 }
 

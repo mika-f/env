@@ -6,6 +6,7 @@ code --install-extension eg2.tslint
 code --install-extension goessner.mdmath
 code --install-extension henriiik.vscode-perl
 code --install-extension maelvalais.autoconf
+code --install-extension mhmadhamster.postcss-language
 code --install-extension ms-python.python
 code --install-extension ms-vscode.cpptools
 code --install-extension ms-vscode.csharp
