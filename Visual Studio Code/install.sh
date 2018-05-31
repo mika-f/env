@@ -1,3 +1,4 @@
+#!/bin/sh
 code --install-extension Gimly81.matlab
 code --install-extension MS-CEINTL.vscode-language-pack-ja
 code --install-extension be5invis.toml
