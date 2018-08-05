@@ -1,17 +1,16 @@
-DotSettings
+env
 ----
-Windows 及び macOS 用の IDE やエディター、コマンドラインツールの設定。  
-Linux などのシェル環境の設定は [dotfiles](https://github.com/mika-f/dotfiles) にあります。
 
-なお、使用機種は以下の物・設定をベースにしています。
+Desktop environment configurations for Windows and macOS.  
+Command Line / Shell environment configurations is [here](https://github.com/mika-f/dotfiles).
+
 
 ## Windows
 
-* VAIO Z (VJZ13B1), ディスプレイ拡大率 150% 
-* Desktop, ディスプレイ拡大率 125% + 100%
+* VAIO Z (VJZ13B1), Scale 150% 
+* Desktop, Scale 125% (Display 1) + 100% (Display 2)
 
 
 ## macOS
 
 * MacBook Pro (Retina, 13-inch, Early 2015)
-* MacBook Air
