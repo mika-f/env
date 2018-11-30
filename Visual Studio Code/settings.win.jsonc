@@ -5,14 +5,12 @@
     "editor.fontSize": 14,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
+    "editor.minimap.enabled": false,
     "editor.renderIndentGuides": true,
-    "editor.tabCompletion": true,
+    "editor.tabCompletion": "on",
     "editor.tabSize": 2,
+    "editor.wordWrap": "off",
     // Files
-    "files.associations": {
-        "cpanfile": "perl",
-        "*.css": "postcss" // *.css files recognized as PostCSS.
-    },
     "files.autoSave": "off",
     // Git
     "git.autofetch": true,
@@ -20,14 +18,30 @@
     "git.enableSmartCommit": true,
     // HTML
     "html.format.extraLiners": "",
+    "html.format.maxPreserveNewLines": 300,
+    "html.format.wrapLineLength": 300,
     "html.suggest.angular1": false,
     // Python
     "python.formatting.autopep8Args": [
         "--max-line-length=120"
     ],
+    // JavaScript
+    "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "javascript.preferences.quoteStyle": "double",
     // TypeScript
+    "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+    "typescript.locale": "en",
     "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.preferences.quoteStyle": "double",
     // Others
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "workbench.iconTheme": "vscode-icons"
+    "workbench.iconTheme": "vscode-icons",
+    "window.titleBarStyle": "custom",
+    "[markdown]": {
+        "editor.wordWrap": "off"
+    },
+    "vetur.trace.server": "messages",
 }
