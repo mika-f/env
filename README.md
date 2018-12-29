@@ -1,5 +1,4 @@
-env
-----
+# env
 
 Desktop environment configurations for Windows and macOS.  
 Command Line / Shell environment configurations is [here](https://github.com/mika-f/dotfiles).
@@ -7,10 +6,12 @@ Command Line / Shell environment configurations is [here](https://github.com/mik
 
 ## Windows
 
-* VAIO Z (VJZ13B1), Scale 150% 
-* Desktop, Scale 125% (Display 1) + 100% (Display 2)
-
+* VAIO Z (VJZ13B1)
+  * Res: 2560x1440, Scale: 150% 
+* Desktop (Custom)
+  * Res: 3840x2160, Scale: 125%
 
 ## macOS
 
-* MacBook Pro (Retina, 13-inch, Early 2015)
+* MacBook Pro (Unknown)
+  * Res: 2880x1800, Scale: 100%
