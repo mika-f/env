@@ -14,5 +14,5 @@ Command Line / Shell environment configurations is [here](https://github.com/mik
 
 ## macOS
 
-* MacBook Pro (Unknown)
+* MacBook Pro (15-inch, 2018)
   * Res: 2880x1800, Scale: 100%
