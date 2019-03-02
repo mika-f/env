@@ -1,35 +1,36 @@
 // Place your settings in this file to overwrite the default settings
 {
-    // Editor
+    // editor
     "editor.fontSize": 11,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "editor.tabCompletion": true,
+    "editor.tabCompletion": "on",
     "editor.tabSize": 2,
     "editor.renderIndentGuides": true,
     "editor.wordWrap": "off",
-    // File
+    // file
     "files.associations": {
         "cpanfile": "perl",
         "*.css": "postcss" // *.css files recognized as PostCSS.
     },
     "files.autoSave": "off",
-    // Git
+    // git
+    "git.autofetch": true,
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
-    // HTML
+    // languages
+    "csharp.suppressDotnetInstallWarning": true,
     "html.format.extraLiners": "",
-    "html.suggest.angular1": false,
-    // Terminal
+    "markdown.extension.toc.githubCompatibility": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    // terminal
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
     "terminal.integrated.fontSize": 11,
     "terminal.integrated.lineHeight": 1.2,
-    // Others
-    "csharp.suppressDotnetInstallWarning": true,
-    "extensions.ignoreRecommendations": false,
+    // others
     "explorer.confirmDragAndDrop": false,
-    "markdown.extension.toc.githubCompatibility": true,
-    "workbench.iconTheme": "vscode-icons"
+    "extensions.ignoreRecommendations": false,
+    "workbench.iconTheme": "vscode-icons",
 }
