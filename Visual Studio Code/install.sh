@@ -1,3 +1,4 @@
+#!/bin/sh
 code --install-extension Gimly81.matlab
 code --install-extension be5invis.toml
 code --install-extension dbaeumer.vscode-eslint
@@ -8,6 +9,8 @@ code --install-extension henriiik.vscode-perl
 code --install-extension maelvalais.autoconf
 code --install-extension mathiasfrohlich.Kotlin
 code --install-extension mhmadhamster.postcss-language
+code --install-extension mikestead.dotenv
+code --install-extension MS-CEINTL.vscode-language-pack-ja
 code --install-extension ms-python.python
 code --install-extension ms-vscode.cpptools
 code --install-extension ms-vscode.csharp
