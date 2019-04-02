@@ -1,5 +1,6 @@
 #!/bin/sh
 code --install-extension Gimly81.matlab
+code --install-extension auchenberg.vscode-browser-preview
 code --install-extension be5invis.toml
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension eg2.tslint
@@ -19,10 +20,10 @@ code --install-extension ms-vsliveshare.vsliveshare-audio
 code --install-extension ms-vsliveshare.vsliveshare-pack
 code --install-extension octref.vetur
 code --install-extension PeterJausovec.vscode-docker
-code --install-extension robertohuertasm.vscode-icons
 code --install-extension shinnn.stylelint
 code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension toba.vsfire
 code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension vncz.vscode-apielements
+code --install-extension vscode-icons-team.vscode-icons
 code --install-extension yzhang.markdown-all-in-one
