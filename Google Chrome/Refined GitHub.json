@@ -1,0 +1,6 @@
+{
+  "features_to_disable": [
+    "hide-own-stars",
+    "sync-pr-commit-title"
+  ]
+}
