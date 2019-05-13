@@ -1,0 +1,55 @@
+// Place your settings in this file to overwrite the default settings
+{
+    // Editor
+    "editor.fontFamily": "'源ノ角ゴシック Code JP', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 10,
+    "editor.renderIndentGuides": true,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "on",
+    "editor.tabSize": 2,
+    "editor.wordWrap": "off",
+    // Extensions
+    "extensions.ignoreRecommendations": false,
+    // Explorer
+    "explorer.confirmDragAndDrop": false,
+    // File
+    "files.associations": {
+        "cpanfile": "perl",
+    },
+    "files.autoSave": "off",
+    "files.trimTrailingWhitespace": true,
+    // Git
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    // Terminal
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.fontFamily": "SauceCodePro Nerd Font",
+    "terminal.integrated.fontSize": 10,
+    "terminal.integrated.lineHeight": 1.1,
+    // Vetur
+    "vetur.format.defaultFormatter.html": "prettier",
+    "vetur.format.enable": false,
+    // Workbench
+    "workbench.iconTheme": "vscode-icons",
+    // =================
+    // Language Specific
+    // -----------------
+    // HTML
+    "html.format.enable": false,
+    "html.format.extraLiners": "",
+    // JavaScript
+    "javascript.format.insertSpaceAfterCommaDelimiter": false,
+    "javascript.format.enable": false,
+    "javascript.preferences.quoteStyle": "single",
+    "javascript.referencesCodeLens.enabled": true,
+    // JSON
+    "json.format.enable": false,
+    // Markdown
+    "[markdown]": {
+        "editor.wordWrap": "off",
+    },
+    // TypeScript
+    "typescript.implementationsCodeLens.enabled": true
+}
