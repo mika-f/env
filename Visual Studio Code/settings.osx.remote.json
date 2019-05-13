@@ -50,6 +50,10 @@
     "[markdown]": {
         "editor.wordWrap": "off",
     },
+    // Perl
+    "[perl]": {
+        "editor.tabSize": 4
+    },
     // TypeScript
     "typescript.implementationsCodeLens.enabled": true
 }
