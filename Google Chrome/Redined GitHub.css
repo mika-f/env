@@ -1,0 +1,7 @@
+.rgh-no-useless-events .news .follow {
+  display: inherit !important;
+}
+
+.js-issue-title {
+  max-width: 33em !important;
+}
