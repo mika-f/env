@@ -11,8 +11,11 @@ Command Line / Shell environment configurations is [here](https://github.com/mik
 * Desktop (Custom)
   * Res: 3840x2160, Scale: 125%
   * Res: 1920x1080, Scale: 100%
+  * Res: 1920x1080, Scale: 100%
 
 ## macOS
 
 * MacBook Pro (15-inch, 2018)
   * Res: 2880x1800, Scale: 100%
+* MacBook Pro (13-inch, 2018)
+  * Res: 2560x1600, Scale: 100%
