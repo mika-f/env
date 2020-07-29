@@ -1,59 +1,91 @@
 // Place your settings in this file to overwrite the default settings
 {
-    // Editor
-    "editor.fontFamily": "'源ノ角ゴシック Code JP', Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 10,
-    "editor.renderIndentGuides": true,
-    "editor.suggestSelection": "first",
-    "editor.tabCompletion": "on",
-    "editor.tabSize": 2,
-    "editor.wordWrap": "off",
-    // Extensions
-    "extensions.ignoreRecommendations": false,
-    // Explorer
-    "explorer.confirmDragAndDrop": false,
-    // File
-    "files.associations": {
-        "cpanfile": "perl",
-    },
-    "files.autoSave": "off",
-    "files.trimTrailingWhitespace": true,
-    // Git
-    "git.autofetch": true,
-    "git.confirmSync": false,
-    "git.enableSmartCommit": true,
-    // Terminal
-    "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.fontFamily": "SauceCodePro Nerd Font",
-    "terminal.integrated.fontSize": 10,
-    "terminal.integrated.lineHeight": 1.1,
-    // Vetur
-    "vetur.format.defaultFormatter.html": "prettier",
-    "vetur.format.enable": false,
-    // Workbench
-    "workbench.iconTheme": "vscode-icons",
-    // =================
-    // Language Specific
-    // -----------------
-    // HTML
-    "html.format.enable": false,
-    "html.format.extraLiners": "",
-    // JavaScript
-    "javascript.format.insertSpaceAfterCommaDelimiter": false,
-    "javascript.format.enable": false,
-    "javascript.preferences.quoteStyle": "single",
-    "javascript.referencesCodeLens.enabled": true,
-    // JSON
-    "json.format.enable": false,
-    // Markdown
-    "[markdown]": {
-        "editor.wordWrap": "off",
-    },
-    // Perl
-    "[perl]": {
-        "editor.tabSize": 4
-    },
-    // TypeScript
-    "typescript.implementationsCodeLens.enabled": true
+  // #region VSCode
+  // Editor
+  "editor.fontFamily": "'源ノ角ゴシック Code JP', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 10,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
+  "editor.renderIndentGuides": true,
+  "editor.suggestSelection": "first",
+  "editor.wordWrap": "off",
+  // Exploerer
+  "explorer.confirmDragAndDrop": false,
+  // File
+  "files.associations": {
+    "cpanfile": "perl",
+  },
+  "files.autoSave": "off",
+  "files.trimTrailingWhitespace": true,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/htdocs/**": true,
+    "**/local/**": true,
+  },
+  // Git
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  // Terminal
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontFamily": "SauceCodePro Nerd Font",
+  "terminal.integrated.fontSize": 11,
+  "terminal.integrated.lineHeight": 1.2,
+  // Workbench
+  "workbench.iconTheme": "vscode-icons",
+  // #endregion
+  // #region Languages
+  // C#
+  "csharp.suppressDotnetInstallWarning": true,
+  // HTML
+  "html.format.extraLiners": "",
+  // JavaScript
+  "javascript.preferences.quoteStyle": "single",
+  "javascript.referencesCodeLens.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // TypeScript
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "extensions.ignoreRecommendations": false,
+  "typescript.implementationsCodeLens.enabled": true,
+  // Language Specified
+  "[markdown]": {
+    "editor.wordWrap": "off"
+  },
+  "[perl]": {
+    "editor.tabSize": 4
+  },
+  "[rust]": {
+    "editor.tabSize": 4
+  },
+  // #endregion
+  // #region Extensions
+  // cSpell
+  "cSpell.userWords": [],
+  // Emmet
+  "emmet.includeLanguages": {
+    "aspnetcorerazor": "html"
+  },
+  // ESLint
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  // GitLens
+  "gitlens.defaultDateFormat": "YYYY/MM/DD HH:mm",
+  "gitlens.defaultDateShortFormat": "YYYY/MM/DD",
+  "gitlens.blame.ignoreWhitespace": true,
+  // IntelliCode
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  // Vetur
+  "vetur.useWorkspaceDependencies": true,
+  "vetur.experimental.templateInterpolationService": true,
+  // VSCode Icons
+  "vsicons.dontShowNewVersionMessage": true,
 }
